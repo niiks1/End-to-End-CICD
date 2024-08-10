@@ -46,7 +46,7 @@ pipeline {
     }
     stage('Update Deployment File') {
         environment {
-            GIT_REPO_NAME = "Jenkins-Zero-To-Hero"
+            GIT_REPO_NAME = "End-to-End-CICD"
             GIT_USER_NAME = "niiks1"
         }
         steps {
